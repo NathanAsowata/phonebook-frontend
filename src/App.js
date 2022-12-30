@@ -6,7 +6,7 @@ const App = () => {
   const [persons, setPersons] = useState([]) 
   const [newName, setNewName] = useState('')
   const [newNumber, setNewNumber] = useState("")
-  const [notificationMesssage, setNotificationMesssage] = (null)
+  const [notificationMesssage, setNotificationMesssage] = ('')
   
 
   useEffect(() => {
